@@ -44,7 +44,9 @@
 .img-person{
     width: 569px;
     height: 723.3px;
-
+    background-color: bisque;
+    border-radius:50%;
+    background-position:50%;
 }
 .content-text1{
     text-align: left;
@@ -124,14 +126,13 @@
     justify-content: space-around;
 }
 
-.plan-title{ */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;';
-    font-style: normal;
+.plan-title{
+    text-align: center;
     font-weight: 700;
     font-size: 30px;
-    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;';
+    font-style: normal;
 
-    color: #151414;
 }
 
 .plan-description{
@@ -145,3 +146,38 @@
     color: #737272;
 
 }
+
+/* content section 3 */
+
+.quote{
+    text-align: center;
+    background-image:linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(230, 84, 0, 0.948)),
+    url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 5%;
+    border-radius: 8px;
+    background-size: 1100px 300px;
+}
+
+.call-button{
+    text-align: center;
+    color: #F15B22;
+    border: none;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+/* Footer Styles */
+
+
