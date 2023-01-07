@@ -147,6 +147,50 @@
 
 }
 
+/* My Sections Styles */
+
+.own-section{
+    text-align: center;
+    background: linear-gradient(to top, rgba(230, 84, 0, 0.948),rgba(245, 246, 252, 0.52));
+}
+
+.checklist{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.checklist-grabber{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.month{
+    color: #F15B22;
+}
+
+.checklist-done{
+    text-align: left;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;';
+    font-style: normal;
+}
+.checklist-button{
+    text-align: center;
+    color: #F15B22;
+    border: none;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
 /* content section 3 */
 
 .quote{
