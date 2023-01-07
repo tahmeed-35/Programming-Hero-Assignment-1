@@ -96,8 +96,52 @@
     color: #444343;
     }
 
-ul li::marker {
+.grabber-item li::marker {
         content: '✓';
         color: green;
         font-weight: 500;
       }
+
+      /* Content Section 2 Styles */
+.grabber3{
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #151414;
+
+}
+.cs2{
+    text-align: center;
+}
+
+.plan-detail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title{ */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+    color: #151414;
+}
+
+.plan-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+
+}
